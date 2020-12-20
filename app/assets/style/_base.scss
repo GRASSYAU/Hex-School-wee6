@@ -1,4 +1,5 @@
 body {
+  font-family: $Roboto-Mono;
   line-height: 1.5;
   overflow-x: hidden; // 在 body 加上 overflow-x: hidden; 來確保頁面在圖片滾動進入之前不會因此出現 x 軸喔
 }
