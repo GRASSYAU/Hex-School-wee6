@@ -6,9 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>首頁</title>
     <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/images/1609057175.ico"
+    />
+    <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <link href="https://cdn.bootcdn.net/ajax/libs/hover.css/2.3.1/css/hover.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style/all.css"/>
   </head>
 
@@ -16,46 +22,88 @@
 
   <nav class="navbar navbar-expand-lg bg-white shadow-sm navbar-light px-lg-0">
   <div class="container">
-    <h1 class="logo">
-      <a class="navbar-brand" href="#">我是logo</a>
+    <h1 >
+      <a class="navbar-brand logo" href="./index.html">我是logo</a>
     </h1>
-    
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+<!-- RWD -->
+    <a
+      class="btn ml-auto text-secondary position-relative d-inline-block d-lg-none"
+    >
+      <span class="material-icons mr-1">shopping_cart</span>
+      <span
+        class="badge badge-pill badge-primary position-absolute absolute-top-center"
+        >3</span
+      ></a
+    >
+    <button
+      class="navbar-toggler p-0 border-0"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="material-icons text-xl m-0">menu</span>
     </button>
-    <div class="collapse navbar-collapse " id="navbarNav">
-      <ul class="navbar-nav d-block d-lg-none">
+    <div class="collapse navbar-collapse mx-negative" id="navbarNav">
+      <ul class="navbar-nav d-block d-lg-none ">
         <li>
-          <a class="btn btn-secondary w-100 py-4    rounded-0 border-bottom" href="./product.html">Product</a>
+          <a
+            class="btn btn-secondary w-100 py-3 rounded-0 border-bottom text-m"
+            href="./product.html"
+            >Product</a
+          >
         </li>
         <li>
-          <a class="btn btn-secondary w-100 py-4    rounded-0 border-bottom" href="#">Wishlist</a>
+          <a
+            class="btn btn-secondary w-100 py-3 rounded-0 border-bottom text-m"
+            href="#"
+            >Wishlist</a
+          >
         </li>
         <li>
-          <a class="btn btn-secondary w-100 py-4  rounded-0 border-bottom" href="#">Blog</a>
+          <a
+            class="btn btn-secondary w-100 py-3 rounded-0 border-bottom text-m"
+            href="#"
+            >Blog</a
+          >
         </li>
         <li>
-          <a class="btn btn-secondary w-100 py-4  rounded-0 border-bottom" href="#">Contact</a>
+          <a
+            class="btn btn-secondary w-100 py-3 rounded-0 border-bottom text-m"
+            href="#"
+            >Contact</a
+          >
         </li>
         <li>
-          <a class="btn btn-secondary w-100 py-4  rounded-0" href="./login.html">log in</a>
+          <a class="btn btn-secondary w-100 py-3 rounded-0 text-m" href="./login.html"
+            >log in</a
+          >
         </li>
       </ul>
     </div>
-
-    <ul class=" navbar-nav d-none d-lg-flex h5 ml-auto">
-      <li class="nav-item mr-6 ">
-        <a class="nav-link px-0 " href="./product.html"><span class="material-icons mr-1 ">store</span>Product</a>
+<!-- PC -->
+    <ul class="navbar-nav d-none d-lg-flex h5 font-weight-normal">
+      <li class="nav-item mr-6">
+        <a class="nav-link px-0" href="./product.html"
+          ><span class="material-icons mr-1">store</span>Product</a
+        >
       </li>
       <li class="nav-item mr-6">
-        <a class="nav-link px-0" href="./login.html"><span class="material-icons mr-1 ">person</span>log in</a>
+        <a class="nav-link px-0" href="./login.html"
+          ><span class="material-icons mr-1">person</span>log in</a
+        >
       </li>
       <li class="nav-item mr-6">
-        <a class="nav-link px-0" href="#"><span class="material-icons mr-1 ">favorite</span>Wishlist</a>
+        <a class="nav-link px-0" href="#"
+          ><span class="material-icons mr-1">favorite</span>Wishlist</a
+        >
       </li>
       <li class="nav-item">
-        <a class="nav-link px-0" href="#"><span class="material-icons mr-1 ">shopping_cart</span>Cart(3)</a>
+        <a class="nav-link px-0" href="#"
+          ><span class="material-icons mr-1">shopping_cart</span>Cart(3)</a
+        >
       </li>
     </ul>
   </div>
@@ -64,10 +112,253 @@
   
 
   
-<h1>5555</h1>
-<div id="h2">123</div>
+<header class="banner">
+  <div class="container h-100">
+    <div class="row align-items-center h-100 text-white">
+      <div class="offset-lg-7 col-lg-5">
+        <h2 class="text-lg-4xl font-weight-bold">Perfume your day</h2>
+        <p class="text-lg-l text-m mb-3">
+          A perfume is like a piece of clothing, a message, a way of presenting
+          oneself a costume that according to the person who wears it.
+        </p>
+        <a
+          href="./product.html"
+          class="btn btn-outline-white col-lg-10 border-2 rounded-pill banner-btn text-l"
+          >Shop now</a
+        >
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="py-lg-9 py-10">
+  <div class="container">
+    <dlv class="row no-gutters flex-row-reverse intro">
+      <div class="col-lg-6">
+        <img
+          src="https://zoehyh.github.io/d-Perfume/img/sp-1.png"
+          alt=""
+          class="intro-img normal"
+        />
+      </div>
+      <div
+        class="col-lg-6 d-flex flex-column justify-content-center align-items-center"
+      >
+        <div class="intro-content">
+          <h2 class="text-xl font-weight-bold">Gabrielle CHANEL</h2>
+          <p class="text-m mb-2 mb-lg-3 font-weight-light font-family-Noto">
+            全新嗅覺體驗，花香四溢、明亮馥郁。結合茉莉、依蘭依蘭、橙花和最迷人的格拉斯晚香玉之花香，呈現出夢幻花香氣息。
+            極具女性特質的香奈兒嘉柏麗香水，專為光芒四射的她而生。
+          </p>
+          <a href="" class="text-primary font-weight-semibold font-family-Noto"
+            >查看更多</a
+          >
+        </div>
+      </div>
+    </dlv>
+    <dlv class="row no-gutters intro">
+      <div class="col-lg-6">
+        <img src="assets/images/index3.png" alt="" class="intro-img normal" />
+      </div>
+      <div
+        class="col-lg-6 d-flex flex-column justify-content-center align-items-center"
+      >
+        <div class="intro-content">
+          <h2 class="text-xl font-weight-bold">Five O’clock Au Gingembre</h2>
+          <p class="text-m mb-2 mb-lg-3 font-weight-light font-family-Noto">
+            生薑與溫醇的肉桂香、紅糖的香甜摻和成一氣，溫暖微辛的氣息反倒形成一股輕煙氤氳開來，還帶點微微煙醺感漫溢在整個鼻息之間，細聞之下,又還有溫溫淡淡的木香，溫和而暖心。
+          </p>
+          <a href="" class="text-primary font-weight-semibold font-family-Noto"
+            >查看更多</a
+          >
+        </div>
+      </div>
+    </dlv>
+    <dlv class="row no-gutters flex-row-reverse intro">
+      <div class="col-lg-6">
+        <img
+          src="https://raw.githubusercontent.com/Kevin-Chia-Hsuan/Hexschool-web-layout-training/main/week6/images/index4.jpg"
+          alt=""
+          class="intro-img normal"
+        />
+      </div>
+      <div
+        class="col-lg-6 d-flex flex-column justify-content-center align-items-center"
+      >
+        <div class="intro-content">
+          <h2 class="text-xl font-weight-bold">Gabrielle CHANEL</h2>
+          <p class="text-m mb-2 mb-lg-3 font-weight-light font-family-Noto">
+            全新嗅覺體驗，花香四溢、明亮馥郁。結合茉莉、依蘭依蘭、橙花和最迷人的格拉斯晚香玉之花香，呈現出夢幻花香氣息。
+            極具女性特質的香奈兒嘉柏麗香水，專為光芒四射的她而生。
+          </p>
+          <a href="" class="text-primary font-weight-semibold font-family-Noto"
+            >查看更多</a
+          >
+        </div>
+      </div>
+    </dlv>
+    <dlv class="row no-gutters intro">
+      <div class="col-lg-6">
+        <img
+          src="https://raw.githubusercontent.com/Kevin-Chia-Hsuan/Hexschool-web-layout-training/main/week6/images/index5.jpg"
+          alt=""
+          class="intro-img lg"
+        />
+      </div>
+      <div
+        class="col-lg-6 d-flex flex-column justify-content-center align-items-center"
+      >
+        <ul class="intro-content d-lg-flex flex-column justify-content-around">
+          <li class="text-lg-sm font-weight-semibold mb-7 mb-lg-8">
+            1.<br />Levels of Preventive<br />Maintenance Compliance
+            <p class="text-lg-s font-weight-normal mt-lg-2 mt-1">
+              The core idea of preventative maintenance is the performance of
+              proactive actions against unscheduled downtime in order to
+              identify potential defects before they evolve into something more
+              severe.
+            </p>
+          </li>
+          <li class="text-lg-sm font-weight-semibold mb-7 mb-lg-8">
+            2.<br />Percentage of Planned<br />Maintenance
+            <p class="text-lg-s font-weight-normal mt-lg-2 mt-1">
+              The planned maintenance percentage is the total planned
+              maintenance time in your CMMS software over a date range over the
+              total number of hours of a service performed by the technicians.
+            </p>
+          </li>
+          <li class="text-lg-sm font-weight-semibold mb-7 mb-lg-8">
+            3.<br />Critical percentage of<br />planned maintenance
+            <p class="text-lg-s font-weight-normal mt-lg-2 mt-1">
+              Calculating the critical percentage of planned maintenance will
+              help you prioritize the most important operations that should be
+              performed immediately.
+            </p>
+          </li>
+          <li>
+            <a
+              href=""
+              class="btn btn-outline-black py-3 w-100 text-center rounded-pill border-2 text-m"
+              >Plan a free online training</a
+            >
+          </li>
+        </ul>
+      </div>
+    </dlv>
+  </div>
+</section>
+
+<section class="bg-light py-lg-9 py-6">
+  <div class="container">
+    <ul class="row">
+      <li class="col-lg-4 mb-6 mb-lg-0">
+        <a href="#" class="card text-black">
+          <div class="card-header hvr-shrink">
+            <img
+              src="https://raw.githubusercontent.com/Kevin-Chia-Hsuan/Hexschool-web-layout-training/main/week6/images/index6.jpg"
+              alt=""
+              class="product-i-img"
+            />
+          </div>
+          <div class="card-body pt-2">
+            <h4 class="font-weight-semibold ">Poppy & Barley</h4>
+            <p class="mb-3">Jo Malone</p>
+            <p>NT$1,380<span class="ml-2 line-through">NT$1,580</span></p>
+          </div>
+        </a>
+      </li>
+      <li class="col-lg-4 mb-6 mb-lg-0">
+        <a href="#" class="card text-black">
+          <div class="card-header hvr-shrink">
+            <img
+              src="https://raw.githubusercontent.com/Kevin-Chia-Hsuan/Hexschool-web-layout-training/main/week6/images/index7.jpg"
+              alt=""
+              class="product-i-img"
+            />
+          </div>
+          <div class="card-body pt-2">
+            <h4 class="font-weight-semibold ">Body Wash</h4>
+            <p class="mb-3">Curology</p>
+            <p>NT$1,580</p>
+          </div>
+        </a>
+      </li>
+      <li class="col-lg-4 ">
+        <a href="#" class="card text-black sold-out">
+          <div class="card-header hvr-shrink">
+            <img
+              src="https://raw.githubusercontent.com/Kevin-Chia-Hsuan/Hexschool-web-layout-training/main/week6/images/index8.jpg"
+              alt=""
+              class="product-i-img "
+            />
+          </div>
+          <div class="card-body pt-2">
+            <h4 class="font-weight-semibold">
+              Apple Cider Vinegar Capsule
+            </h4>
+            <p class="mb-3">Tonik</p>
+            <p>NT$1,580</p>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="py-10 py-lg-9">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mb-2 mb-lg-0"><img src="https://raw.githubusercontent.com/Kevin-Chia-Hsuan/Hexschool-web-layout-training/main/week6/images/index9.jpg" alt=""></div>
+      <div class="col-lg-4 d-lg-flex flex-column justify-content-center">
+        <h2 class=" font-weight-bold">Bottle-Recycling</h2>
+        <h3 class="text-m font-weight-light mb-2 mb-lg-3">Recycle your used empty bottles and be rewarded!</h3>
+        <p class="font-weight-light mb-2 mb-lg-3">For the past 10 years, we have collected over 800,000 bottles through Empty Bottle Recycling Campaign and planted more than 860 pine trees for a better environment.For the past 10 years, we have collected over 800,000 bottles through Empty Bottle Recycling Campaign and planted more than 860 pine trees for a better environment.</p>
+        <a href="" class="text-primary font-weight-semibold font-family-Noto">查看更多</a>
+      </div>
+    </div>
+  </div>
+</section>
 
   
+    <section class="subscribe">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <h2 class="font-weight-bolder text-secondary mb-7 ">記得<br />訂閱以獲取更多資訊！</h2>
+        <div class="input-group">
+          <input
+            type="text"
+            class="form-control border-primary py-7 h-auto border-2"
+            placeholder="Your email address"
+          />
+          <div class="input-group-append">
+            <button class="btn btn-primary px-4" type="button" id="button-addon2">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+
+  <footer class="bg-primary">
+  <div class="container d-flex align-items-center justify-content-between justify-content-lg-start py-7">
+    <a href="./index.html" class="logo logo-secondary mr-7">logo</a>
+    <p class="text-white text-xs">© 2020. All Rights Reserved.</p>
+    <ul class="nav ml-auto d-none d-lg-flex ">
+      <li class="nav-item mr-5">
+        <a class="nav-link text-white px-0 text-m" href="./product.html">Product</a>
+      </li>
+      <li class="nav-item mr-5">
+        <a class="nav-link text-white px-0 text-m" href="#">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white px-0 text-m" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script

@@ -1,0 +1,86 @@
+.banner {
+  height: 480px;
+  background-image: url("../images/index1.jpg");
+  background-position: center;
+  background-size: cover; }
+  @media (min-width: 992px) {
+    .banner {
+      height: 870px; } }
+
+.banner-btn:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.5); }
+
+.intro-img {
+  width: 100%; }
+  .intro-img.normal {
+    height: 350px; }
+  .intro-img.lg {
+    height: 680px; }
+
+.intro-content {
+  padding-top: 8px;
+  padding-bottom: 32px; }
+
+@media (min-width: 992px) {
+  .intro-img.normal {
+    height: 555px; }
+  .intro-img.lg {
+    height: 1080px; }
+  .intro-content {
+    max-width: 63.06306%; } }
+
+.product-i-img {
+  width: 100%;
+  -o-object-position: bottom;
+     object-position: bottom;
+  height: 350px; }
+  @media (min-width: 992px) {
+    .product-i-img {
+      height: 540px; } }
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .card .card-img-top {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center; }
+  .card .card-header {
+    overflow: hidden;
+    position: relative; }
+  .card .card-body {
+    padding-top: 2px; }
+
+.card.sold-out .card-header::after {
+  content: 'Sold out';
+  color: #fff;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 24px;
+  font-weight: 600;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 10; }
+
+.line-through {
+  text-decoration: line-through;
+  color: #8D8D8D; }
+
+/*# sourceMappingURL=index.css.map */
