@@ -1,5 +1,5 @@
 // 標頭
-.logo a {
+.logo{
   background: url("../images/d’Perfume@2x.png");
   background-size: cover;
   display: block;
@@ -9,3 +9,20 @@
   overflow: hidden;
   white-space: nowrap;
 }
+//標尾
+.logo-secondary{
+  background: url("../images/d’Perfumewhite@2x.png");
+  background-size: cover;
+}
+//RWD購物車標籤
+.absolute-top-center{
+  left: 50%;
+}
+//訂閱Banner
+.subscribe{
+  background: url("../images/index10.jpg") center center no-repeat;
+  background-size: cover;  
+  height: 600px;
+  padding-top: 312px;
+}
+

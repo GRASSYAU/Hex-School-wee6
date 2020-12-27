@@ -6,9 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title><%- title %></title>
     <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/images/1609057175.ico"
+    />
+    <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <link href="https://cdn.bootcdn.net/ajax/libs/hover.css/2.3.1/css/hover.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style/all.css"/>
   </head>
 
@@ -16,11 +22,17 @@
 
   <%- include('layout/navbar.ejs') -%>
 
-  
+  <% if (brands) { %>
+    <%- include('layout/brands.ejs'); %>
+  <% } %>
 
   <%- contents %>
 
-  
+  <% if (subscribe) { %>
+    <%- include('layout/subscribe.ejs'); %>
+  <% } %>
+
+  <%- include('layout/footer.ejs') -%>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script

@@ -13,11 +13,14 @@ h6 {
   line-height: 1.2;
   margin: 0;
 }
-
+//focus線消掉
+button:focus {
+  outline: none;
+}
 //設定文字黑色，該消失的消失
 a {
   text-decoration: none;
-  color: #000;
+  // color: #000;
   &:hover {
     text-decoration: none;
   }
@@ -27,6 +30,8 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+  object-fit: cover;//類似 background-size
+  object-position:center;//類似background-position
 }
 
 p,
@@ -39,4 +44,16 @@ ul {
 //icon與文字對齊
 .material-icons {
   vertical-align: bottom;
+}
+
+.font-family-Noto{
+  font-family:  $font-family-Noto;
+}
+
+.border-2{
+  border-width:2px
+}
+
+.font-weight-semibold{
+  font-weight: 600!important;
 }

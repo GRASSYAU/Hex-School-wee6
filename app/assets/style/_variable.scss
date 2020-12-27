@@ -6,3 +6,28 @@ $Light-300:300;
 $Regular-400: 400;
 $Medium-500: 500;
 $Bold-700: 700;
+//字體大小
+$font-sizes:1rem !default;
+$text-type:(
+    xs: $font-sizes * 0.875,
+    s: $font-sizes,
+    m: $font-sizes * 1.25,
+    sm: $font-sizes * 1.5,
+    l: $font-sizes * 1.75,
+    xl: $font-sizes * 2,
+    4xl:40px
+) ;
+@each $name,$font-sizes in $text-type{
+    .text-#{$name} {
+        font-size: $font-sizes;
+        line-height: 1.5;
+    }
+} ;
+@include media-breakpoint-up(lg){
+    @each $name,$font-sizes in $text-type{
+        .text-lg-#{$name} {
+            font-size: $font-sizes;
+            line-height: 1.5;
+        }
+    } ;
+}

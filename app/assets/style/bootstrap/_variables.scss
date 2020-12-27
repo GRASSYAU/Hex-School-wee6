@@ -76,15 +76,16 @@ $dark:          $gray-800 !default;
 $theme-colors: () !default;
 $theme-colors: map-merge(
   (
-    "primary":    $primary,
-    "secondary":  $secondary,
+    "primary":    #916000,
+    "secondary":  #8D8D8D,
     "success":    $success,
     "info":       $info,
     "warning":    $warning,
     "danger":     $danger,
-    "light":      $light,
+    "light":      #E0E0E0,
     "dark":       $dark,
     "white":      #ffffff,
+    "black":      #000000,
   ),
   $theme-colors
 );
@@ -143,8 +144,13 @@ $spacers: map-merge(
     2: ($spacer * .5),
     3: $spacer,
     4: ($spacer * 1.5),
-    5: ($spacer * 3),
+    5: ($spacer * 1.75),
     6: ($spacer * 2),
+    7: ($spacer * 1.25),
+    8: 52px,
+    9:60px,
+    10:40px,
+    negative:-20px,
   ),
   $spacers
 );
@@ -740,7 +746,7 @@ $navbar-dark-disabled-color:        rgba($white, .25) !default;
 $navbar-dark-toggler-icon-bg:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !default;
 $navbar-dark-toggler-border-color:  rgba($white, .1) !default;
 
-$navbar-light-color:                rgba($black, .5) !default;
+$navbar-light-color:                #8d8d8d !default;
 $navbar-light-hover-color:          rgba($black, .7) !default;
 $navbar-light-active-color:         rgba($black, .9) !default;
 $navbar-light-disabled-color:       rgba($black, .3) !default;

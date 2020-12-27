@@ -1,45 +1,87 @@
 <nav class="navbar navbar-expand-lg bg-white shadow-sm navbar-light px-lg-0">
   <div class="container">
-    <h1 class="logo">
-      <a class="navbar-brand" href="#">我是logo</a>
+    <h1 >
+      <a class="navbar-brand logo" href="./index.html">我是logo</a>
     </h1>
-    
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+<!-- RWD -->
+    <a
+      class="btn ml-auto text-secondary position-relative d-inline-block d-lg-none"
+    >
+      <span class="material-icons mr-1">shopping_cart</span>
+      <span
+        class="badge badge-pill badge-primary position-absolute absolute-top-center"
+        >3</span
+      ></a
+    >
+    <button
+      class="navbar-toggler p-0 border-0"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="material-icons text-xl m-0">menu</span>
     </button>
-    <div class="collapse navbar-collapse " id="navbarNav">
-      <ul class="navbar-nav d-block d-lg-none">
+    <div class="collapse navbar-collapse mx-negative" id="navbarNav">
+      <ul class="navbar-nav d-block d-lg-none ">
         <li>
-          <a class="btn btn-secondary w-100 py-4    rounded-0 border-bottom" href="./product.html">Product</a>
+          <a
+            class="btn btn-secondary w-100 py-3 rounded-0 border-bottom text-m"
+            href="./product.html"
+            >Product</a
+          >
         </li>
         <li>
-          <a class="btn btn-secondary w-100 py-4    rounded-0 border-bottom" href="#">Wishlist</a>
+          <a
+            class="btn btn-secondary w-100 py-3 rounded-0 border-bottom text-m"
+            href="#"
+            >Wishlist</a
+          >
         </li>
         <li>
-          <a class="btn btn-secondary w-100 py-4  rounded-0 border-bottom" href="#">Blog</a>
+          <a
+            class="btn btn-secondary w-100 py-3 rounded-0 border-bottom text-m"
+            href="#"
+            >Blog</a
+          >
         </li>
         <li>
-          <a class="btn btn-secondary w-100 py-4  rounded-0 border-bottom" href="#">Contact</a>
+          <a
+            class="btn btn-secondary w-100 py-3 rounded-0 border-bottom text-m"
+            href="#"
+            >Contact</a
+          >
         </li>
         <li>
-          <a class="btn btn-secondary w-100 py-4  rounded-0" href="./login.html">log in</a>
+          <a class="btn btn-secondary w-100 py-3 rounded-0 text-m" href="./login.html"
+            >log in</a
+          >
         </li>
       </ul>
     </div>
-
-    <ul class=" navbar-nav d-none d-lg-flex h5 ml-auto">
-      <li class="nav-item mr-6 ">
-        <a class="nav-link px-0 " href="./product.html"><span class="material-icons mr-1 ">store</span>Product</a>
+<!-- PC -->
+    <ul class="navbar-nav d-none d-lg-flex h5 font-weight-normal">
+      <li class="nav-item mr-6">
+        <a class="nav-link px-0" href="./product.html"
+          ><span class="material-icons mr-1">store</span>Product</a
+        >
       </li>
       <li class="nav-item mr-6">
-        <a class="nav-link px-0" href="./login.html"><span class="material-icons mr-1 ">person</span>log in</a>
+        <a class="nav-link px-0" href="./login.html"
+          ><span class="material-icons mr-1">person</span>log in</a
+        >
       </li>
       <li class="nav-item mr-6">
-        <a class="nav-link px-0" href="#"><span class="material-icons mr-1 ">favorite</span>Wishlist</a>
+        <a class="nav-link px-0" href="#"
+          ><span class="material-icons mr-1">favorite</span>Wishlist</a
+        >
       </li>
       <li class="nav-item">
-        <a class="nav-link px-0" href="#"><span class="material-icons mr-1 ">shopping_cart</span>Cart(3)</a>
+        <a class="nav-link px-0" href="#"
+          ><span class="material-icons mr-1">shopping_cart</span>Cart(3)</a
+        >
       </li>
     </ul>
   </div>

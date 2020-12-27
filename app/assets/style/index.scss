@@ -1,0 +1,57 @@
+.banner {
+  height: 480px;
+  background-image: url("../images/index1.jpg");
+  background-position: center;
+  background-size: cover;
+  @include mobile {
+    height: 870px;
+  }
+}
+.banner-btn:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.intro {
+  &-img {
+    width: 100%;
+    &.normal {
+      height: 350px;
+    }
+    &.lg {
+      height: 680px;
+    }
+  }
+  &-content {
+    padding-top: 8px;
+    padding-bottom: 32px;
+  }
+  @include mobile {
+    &-img {
+      &.normal {
+        height: 555px;
+      }
+      &.lg {
+        height: 1080px;
+      }
+    }
+    &-content {
+      //百分比寫法 分母為父元素為555px，文字區塊是350px
+      max-width: percentage(350/555);
+    }
+  }
+}
+
+.product-i-img {
+  width: 100%;
+  object-position: bottom;
+  height: 350px;
+  @include mobile {
+    height: 540px;
+  }
+}
+
+.line-through {
+  text-decoration: line-through;
+  color: #8d8d8d;
+}
